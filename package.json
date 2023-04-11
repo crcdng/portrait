@@ -8,6 +8,7 @@
     "clean": "rm -rf dist && mkdir dist",
     "start": "parcel src/index.html",
     "watch": "parcel src/index.html",
+    "deploy": "npx gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@crcdng",
@@ -17,6 +18,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3"
   }
 }
