@@ -1,0 +1,22 @@
+{
+  "name": "take_photo",
+  "version": "1.0.0",
+  "description": "take a photo with centering",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist && mkdir dist",
+    "start": "parcel src/index.html",
+    "watch": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@crcdng",
+  "license": "MIT",
+  "dependencies": {
+    "p5": "^1.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
