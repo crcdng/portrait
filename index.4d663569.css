@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Jost;
+  src: url("Jost-ExtraLight.b815c10a.ttf");
+}
+
+p {
+  font-feature-settings: "ss01" 1;
+  font-family: Jost, Futura, Helvetica, Arial, sans-serif;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
