@@ -4,11 +4,11 @@
   "description": "take a photo with centering",
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "clean": "rm -rf dist && mkdir dist",
     "start": "parcel src/index.html",
     "watch": "parcel src/index.html",
-    "deploy": "npx gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@crcdng",
