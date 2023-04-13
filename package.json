@@ -1,6 +1,6 @@
 {
   "name": "take_photo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "take a photo with centering",
   "source": "src/index.html",
   "scripts": {
